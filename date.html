@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoveMatch - Dating Website</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>LoveMatch</h1>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#profiles">Profiles</a>
+                <a href="#signup">Sign Up</a>
+                <a href="#login">Login</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Find Your Perfect Match</h2>
+            <p>Join thousands of singles looking for love today. Start your journey now!</p>
+            <a href="#signup" id="join-btn" class="btn">Join Now</a>
+        </div>
+    </section>
+
+    <!-- Profile Cards Section -->
+    <section id="profiles">
+        <h2 class="section-title">Meet Our Members</h2>
+        <div class="profile-grid">
+            <!-- Dynamic Profile Cards will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Sign-Up Section -->
+    <section id="signup">
+        <h2>Sign Up Now!</h2>
+        <form action="#" method="POST" id="signup-form">
+            <input type="text" name="username" placeholder="Enter your name" required><br>
+            <input type="email" name="email" placeholder="Enter your email" required><br>
+            <input type="password" name="password" placeholder="Create a password" required><br>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login">
+        <h2>Login</h2>
+        <form action="#" method="POST" id="login-form">
+            <input type="email" name="email" placeholder="Enter your email" required><br>
+            <input type="password" name="password" placeholder="Enter your password" required><br>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:example@example.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 LoveMatch. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to external JS file -->
+    <script src="scripts.js"></script>
+
+</body>
+</html>
